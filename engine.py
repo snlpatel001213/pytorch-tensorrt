@@ -51,7 +51,7 @@ from __future__ import division
 
 import numpy as np
 import tensorrt as trt
-from tensorrt.parsers import uffparser, caffeparser
+from tensorrt.legacy.parsers import uffparser, caffeparser
 
 class Engine(object):
     '''A TensorRT engine with self containted logger, runtime, context and memory

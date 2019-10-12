@@ -1,7 +1,6 @@
 import cv2
 from torchvision import datasets, transforms
 
-
 MEAN = [0.485, 0.456, 0.406]
 STD = [0.229, 0.224, 0.225]
 

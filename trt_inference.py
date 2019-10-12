@@ -1,7 +1,7 @@
 import torch
 from torch.autograd import Variable
 import tensorrt as trt
-from tensorrt.parsers import onnxparser
+from tensorrt.legacy.parsers import onnxparser
 import pycuda.driver as cuda
 import pycuda.gpuarray as gpuarray
 import pycuda.autoinit
